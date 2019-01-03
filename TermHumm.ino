@@ -23,10 +23,10 @@ NTPClient timeClient(ntpUDP);
 #undef VERIFY
 
 const char* exceptionFile = "/exceptions.txt";
-const char* ssid     = "SSID your router";
-const char* password = "Password to router";
+const char* ssid     = "SSID of your router";
+const char* password = "Password to your router";
 
-const String api_key = "Thingspeak.com write API key to sensor channel";
+const String api_key = "Thingspeak.com write API key to the sensor channel";
 const String location = "Your sensor location name";
 
 const String destinationEmail = "Your e-mail";
